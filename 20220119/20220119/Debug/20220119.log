@@ -1,0 +1,5 @@
+﻿  test.c
+D:\bit\c_language\20220119\20220119\test.c(59): warning C4716: “main5”: 必须返回一个值
+D:\bit\c_language\20220119\20220119\test.c(110): warning C4716: “main3”: 必须返回一个值
+D:\bit\c_language\20220119\20220119\test.c(83): warning C4716: “main4”: 必须返回一个值
+  20220119.vcxproj -> D:\bit\c_language\20220119\Debug\20220119.exe
