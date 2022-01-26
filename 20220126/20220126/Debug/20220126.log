@@ -1,0 +1,8 @@
+﻿  test.c
+D:\bit\c_language\20220126\20220126\test.c(35,6): warning C4013: “gets”未定义；假设外部返回 int
+D:\bit\c_language\20220126\20220126\test.c(64): warning C4716: “main5”: 必须返回一个值
+D:\bit\c_language\20220126\20220126\test.c(86): warning C4716: “main4”: 必须返回一个值
+D:\bit\c_language\20220126\20220126\test.c(119): warning C4716: “main2”: 必须返回一个值
+D:\bit\c_language\20220126\20220126\test.c(103): warning C4716: “main3”: 必须返回一个值
+D:\bit\c_language\20220126\20220126\test.c(138): warning C4716: “main1”: 必须返回一个值
+  20220126.vcxproj -> D:\bit\c_language\20220126\Debug\20220126.exe
