@@ -56,7 +56,7 @@ int howmuch_mine(char mine[ROWS][COLS],int x,int y)
 //ÅÅÀ×
 void set_coordinate(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col)
 {
-	display_arr(mine, ROW, COL);
+	//display_arr(mine, ROW, COL);
 	int x = 0;
 	int y = 0;
 	int counts = 0;
