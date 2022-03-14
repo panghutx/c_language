@@ -1,0 +1,4 @@
+﻿  qsort_diy.c
+D:\bit\c_language\20220313\20220313\qsort_diy.c(14,15): warning C4013: “strcmp”未定义；假设外部返回 int
+D:\bit\c_language\20220313\20220313\qsort_diy.c(58,7): warning C4013: “qsort”未定义；假设外部返回 int
+  20220313.vcxproj -> D:\bit\c_language\20220313\Debug\20220313.exe
