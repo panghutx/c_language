@@ -1,0 +1,4 @@
+﻿  tset1.c
+D:\bit\c_language\20220316\20220316\tset1.c(57,19): warning C4133: “函数”: 从“ElemType [10]”到“Sqlist *”的类型不兼容
+D:\bit\c_language\20220316\20220316\tset1.c(58,16): warning C4133: “函数”: 从“ElemType [10]”到“Sqlist *”的类型不兼容
+  20220316.vcxproj -> D:\bit\c_language\20220316\Debug\20220316.exe

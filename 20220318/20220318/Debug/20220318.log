@@ -1,0 +1,8 @@
+﻿  test.c
+D:\bit\c_language\20220318\20220318\test.c(52,18): warning C4013: “strlen”未定义；假设外部返回 int
+D:\bit\c_language\20220318\20220318\test.c(44): warning C4716: “main2”: 必须返回一个值
+D:\bit\c_language\20220318\20220318\test.c(67): warning C4716: “main4”: 必须返回一个值
+D:\bit\c_language\20220318\20220318\test.c(95): warning C4716: “main5”: 必须返回一个值
+D:\bit\c_language\20220318\20220318\test.c(31): warning C4716: “main1”: 必须返回一个值
+D:\bit\c_language\20220318\20220318\test.c(159): warning C4716: “main7”: 必须返回一个值
+  20220318.vcxproj -> D:\bit\c_language\20220318\Debug\20220318.exe
