@@ -1,0 +1,3 @@
+﻿  memmove.c
+D:\bit\c_language\20220328\20220328\memmove.c(23): warning C4716: “My_memmove”: 必须返回一个值
+  20220328.vcxproj -> D:\bit\c_language\20220328\Debug\20220328.exe

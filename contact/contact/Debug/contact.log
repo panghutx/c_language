@@ -1,0 +1,6 @@
+﻿  contact.c
+D:\bit\c_language\contact\contact\contact.c(11,16): warning C4047: “函数”:“const char *”与“void *(__cdecl *)(size_t,size_t)”的间接级别不同
+D:\bit\c_language\contact\contact\contact.c(11,10): warning C4024: “perror”: 形参和实参 1 的类型不同
+D:\bit\c_language\contact\contact\contact.c(29,18): warning C4047: “函数”:“const char *”与“void *(__cdecl *)(void *,size_t)”的间接级别不同
+D:\bit\c_language\contact\contact\contact.c(29,11): warning C4024: “perror”: 形参和实参 1 的类型不同
+  contact.vcxproj -> D:\bit\c_language\contact\Debug\contact.exe
