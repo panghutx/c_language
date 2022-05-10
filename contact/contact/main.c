@@ -17,7 +17,7 @@ int main()
 	do 
 	{
 		menu();
-		printf("输入你选择的序号；\n");
+		printf("杈撳叆浣犻�夋嫨鐨勫簭鍙凤紱\n");
 		scanf("%d", &input);
 		switch (input)
 		{
@@ -43,11 +43,11 @@ int main()
 			Ordercontact(&ps);
 			break;
 		case 0:
-			Destroycontact(&ps);
-			printf("退出成功\n");
+			Destorycontact(&ps);
+			printf("閫�鍑烘垚鍔焅n");
 			break;
 		default:
-			printf("你输入的信息有误\n");
+			printf("浣犺緭鍏ョ殑淇℃伅鏈夎\n");
 			break;
 		}
 	} while (input);
