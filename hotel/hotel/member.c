@@ -1,4 +1,8 @@
 #include"member.h"
+#include"room.h"
+#include"checkIn.h"
+
+hotelMember hm;
 
 //初始化
 void InitMember(hotelMember* hm) {
@@ -45,21 +49,25 @@ void AddMember(hotelMember* hm) {
 	scanf("%s", hm->nums[hm->size].identify);
 	printf("请输入电话：\n");
 	scanf("%s", hm->nums[hm->size].phone);
+	printf("请输入要入住的房间号：\n");
+	scanf("%d", hm->nums[hm->size].roomNum);
 	hm->size++;
 	//录入成功
 	printf("登记成功\n");
+	
 }
 
 //打印住客信息
 void PrintMember(const hotelMember* hm) {
 	int i = 0;
-	printf("%10s %5s %5s %20s %15s\n", "姓名", "年龄", "性别", "身份证号", "电话");
+	printf("%10s %5s %5s %20s %15s %10s\n", "姓名", "年龄", "性别", "身份证号", "电话","房间号");
 	for (i = 0; i < hm->size; i++) {
 		printf("%10s ", hm->nums[i].name);
 		printf("%5d", hm->nums[i].age);
 		printf("%5s", hm->nums[i].sex);
 		printf("%20s", hm->nums[i].identify);
-		printf("%15s\n", hm->nums[i].phone);
+		printf("%15s", hm->nums[i].phone);
+		printf("%10d\n", hm->nums[i].roomNum);
 	}
 }
 
@@ -99,10 +107,21 @@ void FindMember(hotelMember hm) {
 		printf("住户不存在\n");
 		return;
 	}
-	printf("%10s %5s %5s %20s %15s\n", "姓名", "年龄", "性别", "身份证号", "电话");
-	printf("%10s %5d %5s %20s %15s ", 
-		hm.nums[rst].name,hm.nums[rst].age,hm.nums[rst].sex,hm.nums[rst].identify,hm.nums[rst].phone);
+	printf("%10s %5s %5s %20s %15s %10s\n", "姓名", "年龄", "性别", "身份证号", "电话","房间号");
+	printf("%10s %5d %5s %20s %15s %10d ", 
+		hm.nums[rst].name,hm.nums[rst].age,hm.nums[rst].sex,
+		hm.nums[rst].identify,hm.nums[rst].phone,hm.nums[rst].roomNum);
 
+}
+
+
+//住户选择的房间信息
+int hotelNum(hotelMember* hm) {
+	int num[10] = { 0 };
+	for (int i = 0; i < hm->size; i++) {
+		num[i] = hm->nums[i].roomNum;
+	}
+	return num;
 }
 
 //手动释放数据

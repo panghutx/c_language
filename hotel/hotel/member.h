@@ -10,6 +10,7 @@ typedef struct Consumer {
 	char sex[10];//性别
 	char phone[11];//手机号
 	char identify[18];//身份证
+	int roomNum;//选择的房间号
 
 }Consumer;
 
@@ -35,3 +36,5 @@ void DelMember(hotelMember* hm);
 void FindMember(hotelMember hm);
 //free
 void DestoryMember(hotelMember* hm);
+//住户房间选择
+int hotelNum(hotelMember* hm);

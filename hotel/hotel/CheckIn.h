@@ -1,5 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-#include<stdio.h>
+//入住服务板块
 
-//住店服务模块
 

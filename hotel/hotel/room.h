@@ -1,5 +1,7 @@
+
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
+
 
 //房间板块
 
@@ -32,12 +34,9 @@ void InitRoom(roomManager* rm);
 void PrintRoom(roomManager rm);
 void AddHotel(roomManager* rm);
 void SaveHotel(roomManager* rm);
+void LoadHotel(roomManager* rm);
+//int HotelNum(); //获取房间号
+void ModifyHotel(roomManager* rm); //修改房间状态
 
-////打印
-//void PrintMember(const hotelMember* hm);
-////删除
-//void DelMember(hotelMember* hm);
-////查找
-//void FindMember(hotelMember hm);
-////free
-//void DestoryMember(hotelMember* hm);
+
+

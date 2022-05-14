@@ -139,13 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CheckIn.c" />
+    <ClCompile Include="checkIn.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="member.c" />
     <ClCompile Include="room.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CheckIn.h" />
+    <ClInclude Include="checkIn.h" />
     <ClInclude Include="member.h" />
     <ClInclude Include="room.h" />
   </ItemGroup>

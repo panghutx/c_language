@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include"member.h"
 #include"room.h"
-//菜单页面
+//总菜单页面
 menu() {
 	printf("------欢迎访问旅馆管理系统-----\n");
 	printf("------本系统提供如下服务-------\n");
@@ -14,13 +14,11 @@ menu() {
 
 }
 
+
 int main() 
 {
 	menu();
-	hotelMember hm;
-	roomManager rm;
-	//初始化旅馆住客信息
-	InitMember(&hm);
+
 	int input = 1;
 	while (input)
 	{
@@ -29,20 +27,18 @@ int main()
 		switch (input) {
 		case 1:
 			printf("住店服务\n");
-			InitRoom(&rm);
-			AddHotel(&rm);
-			SaveHotel(&rm);
-			PrintRoom(rm);
-			//AddMember(&hm);
-			//PrintMember(&hm);
+			checkInMenu();
+			checkIn();
+			//InitRoom(&rm);
+			//LoadHotel(&rm);
+			//PrintRoom(rm);
 			break;
 		case 2:
 			printf("退房服务\n");
-			DelMember(&hm);
-			PrintMember(&hm);
+
 			break;
 		case 3:
-			printf("qita服务\n");
+			printf("其他服务\n");
 			break;
 		case 0:
 			printf("退出成功，感谢您的访问");

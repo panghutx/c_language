@@ -21,10 +21,10 @@
     <ClCompile Include="member.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CheckIn.c">
+    <ClCompile Include="room.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="room.c">
+    <ClCompile Include="checkIn.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,10 +32,10 @@
     <ClInclude Include="member.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CheckIn.h">
+    <ClInclude Include="room.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="room.h">
+    <ClInclude Include="checkIn.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
