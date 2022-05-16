@@ -1,3 +1,5 @@
-﻿  hotel.cpp
-D:\bit\c_language\hotelsystem\hotelsystem\hotel.cpp(181,7): warning C4101: “n”: 未引用的局部变量
+﻿  newHotel.cpp
+D:\bit\c_language\hotelsystem\hotelsystem\newHotel.cpp(83,24): warning C4018: “<”: 有符号/无符号不匹配
+D:\bit\c_language\hotelsystem\hotelsystem\newHotel.cpp(170,24): warning C4018: “<”: 有符号/无符号不匹配
+D:\bit\c_language\hotelsystem\hotelsystem\newHotel.cpp(206,22): warning C4018: “<”: 有符号/无符号不匹配
   hotelsystem.vcxproj -> D:\bit\c_language\hotelsystem\Debug\hotelsystem.exe
